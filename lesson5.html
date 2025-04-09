@@ -15,8 +15,12 @@
         const bagel = 3
         const soup = 9
         let cost = coffee + bagel + bagel + soup
+
         console.log('Cost of food $$', cost)
-        console.log('tax', cost * 0.1)
+        let tax = cost * 0.1
+        console.log('Tax (10%) $$', cost * 0.1)
+        const totalCost = cost + tax
+        console.log('Total cost: $$', totalCost)
     </script>
 </body>
 
